@@ -1,0 +1,45 @@
+.success{
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+.success .message-banner{
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.success .message-banner h1{
+    padding: 0.5rem;
+    background-color: #f64;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.success .message-banner p{
+    padding: 0.5rem;
+    color: #000000;
+    text-align: center;
+
+}
+
+@media only screen and (min-width:660px) {
+    .success .message-banner{
+        left: 33%;
+        width: 30%;
+    }
+    .success .message-banner h1{
+        font-size: 2rem;
+    }
+}

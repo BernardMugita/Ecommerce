@@ -1,0 +1,174 @@
+.About{
+    background-color: #fff;
+    padding: 50px;
+    text-align: left;
+}
+.About .top,
+    .bottom,
+    .bottom .right, 
+    .bottom .left, 
+    .bottom .left h1, 
+    .bottom .left .up, 
+    .bottom .left .up label, 
+    .bottom .left .up input,
+    .bottom .left .down,
+    .bottom .left .down .email_group,
+    .bottom .left .down .message_group,  
+    .bottom .left .down .email_group input,
+    .bottom .left .down .message_group textarea,
+    .bottom .left .down .email_group label,
+    .bottom .left .down .message_group label,    
+    h1, 
+    p,
+    form{
+    background-color: #fff;
+}
+.About .top{
+    margin-bottom: 20px;
+}
+.About .top p{
+    margin-left: 15px;
+}
+.About .bottom{
+    text-align: left;
+}
+.About .bottom .left .down{
+    text-align: left;
+}
+.About .bottom .left .down input, 
+.About .bottom .left .down label,
+.About .bottom .left .down textarea{
+    margin-top: 10px;
+}
+.About .bottom .right p{
+    margin-left: 15px;
+}
+.About .bottom .left .down .email_group label,
+.About .bottom .left .down .message_group label{
+    margin-top: 10px;
+}
+.About .bottom .left .up label{
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 15px;
+} 
+.About .bottom .left .up input{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #cecece;
+}
+.About .bottom .left .down input{
+    margin-left: 15px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #cecece;
+}
+.About .bottom .left .down label{
+    margin-left: 15px;
+}
+.About .bottom .left .down textarea{
+    margin-left: 15px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #cecece;
+    font-size: 14px;
+    background-color: #fff;
+}
+.About form button{
+    margin-top: 20px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    width: auto;
+    background-color: #ff6200;
+}
+@media only screen and (min-width:660px){
+    .About{
+        margin: 20px;
+        padding: 50px;
+        text-align: left;
+        height: 100%;
+    }
+    .About .bottom{
+        text-align: left;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 2rem;
+    }
+    .About .bottom .left{
+        flex: 2;
+    }
+    .About .bottom .right{
+        flex: 3;
+    }
+    .About .bottom .left .up{
+        display: flex;
+        flex-direction: column;
+    }
+    .About .bottom .left 
+    .About .bottom .left .up input{
+        width: 500px;
+    }
+
+    .About .bottom .left form{
+        display: flex;
+        flex-direction: column;
+    }
+    .About .bottom .left form .down{
+        margin-top: 10px;
+        background-color: #fff;
+        
+    }
+    .About .bottom .left .down textarea{
+        margin-left: 1rem;
+        width: 250px;
+    }
+    .About .bottom .left .down label, textarea{
+        background-color: #fff;
+    }
+}
+
+@media only screen and (min-width:990px){
+    .About .bottom .left label{
+        text-align: right;
+    }
+    .About .bottom .left .down label{
+        text-align: right;
+    }
+    .About .bottom .left{
+        flex: 1;
+    }
+    .About .bottom .right{
+        flex: 1;
+    }
+    .About .bottom .left .up{
+        display: flex;
+        flex-direction: column;
+    }
+    .About .bottom .left .up input{
+        width: 500px;
+    }
+    .About .bottom .left .down{
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    .About .bottom .left .down textarea{
+        margin-left: 250px;
+        width: 500px;
+        margin-top: -10px;
+    }
+    .About .bottom .left .down label, textarea{
+        background-color: #fff;
+    }
+    .About .bottom .left .down label{
+        text-align: right;
+        margin-left: 165px;
+    }
+    .About .bottom .left form button{
+        margin-left: 450px;
+    }
+}

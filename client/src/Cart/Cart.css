@@ -1,0 +1,129 @@
+.Cart{
+    display: flex;
+    flex-direction: column;
+}
+.Cart .side{
+    display: none;
+}
+.Cart .main{
+    padding: 0.5rem;
+}
+.Cart .checkout{
+    padding: 2rem;
+    margin: 1.5rem;
+    background-color: #fff;
+}
+.Cart .checkout .heading h2{
+    background-color: #ff4400;
+    padding: 0.5rem;
+}
+.Cart .checkout .body{
+    background-color: #fff;
+}
+.Cart .checkout .body input{
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #ff4400;
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.Cart .checkout .body h4{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    background-color: #fff;
+}
+.Cart .checkout .body .order{
+    background-color: #fff;
+}
+.Cart .checkout .body .order button{
+    background-color: #ff4400;
+    border: 2px solid #ff4400;
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+.main .image,
+.product_id,
+.product_name,
+.quantity,
+.price,
+.delete,
+#delete,
+.side1, 
+.side2{
+    background-color: #fff;
+}
+.main .product_id,
+.product_name,
+.quantity{
+    margin-bottom: 1rem;
+}
+.main .side1 img{
+    width: 100%;
+}
+.main .side1{
+    flex: 1;
+}
+.main .side2{
+    flex: 1;
+    margin-left: 0.5rem;
+}
+.main .delete #delete{
+    font-size: 1.2rem;
+    color: #ff4400;
+}
+@media only screen and (min-width: 660px) {
+    .Cart{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    .Cart .side{
+        display: block;
+        flex: 1;
+    }
+    .Cart .main{
+        flex: 2;
+        display: flex;  
+    }
+    .Cart .checkout .body .product{
+        background-color: #fff;
+    }
+    .Cart .checkout .body .product p{
+        color: #ff4400;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        width: 100%;
+        font-weight: 600;
+    }
+    .Cart .checkout{
+        flex: 1;
+        height: 100%;
+    }
+    .Cart .checkout input{
+        background-color: #fff;
+    }
+    .Cart .cartproduct{
+        display: flex;
+        flex-direction: row;
+        width: 50rem;
+        margin: 2rem;
+        border: 1px solid #ff4400;
+        padding: 2rem;
+        background-color: #fff;
+    }
+    .Cart .cartproduct .side1{
+        flex: 1;
+    }
+    .Cart .cartproduct .side2{
+        flex: 3;
+    }
+    .Cart .cartproduct .side1 .image{
+        width: 10rem;
+        height: 10rem;
+    }
+}

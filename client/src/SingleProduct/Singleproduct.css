@@ -1,0 +1,145 @@
+.Singleproduct{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 55rem;
+}
+.Singleproduct .leftside{
+    background-color: #fff;
+}
+.Singleproduct .leftside .heading{
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+.Singleproduct .leftside .picture{
+    background-color: #fff;
+    border: 2px solid #ff4500;
+    
+}
+.Singleproduct .leftside .picture img{
+    background-color: #fff;
+    width: 100%;
+    object-fit: contain;
+    height: 20rem;
+}
+
+.Singleproduct .rightside{
+    background-color: #fff;
+    padding: 1rem;
+    height: 30rem;
+}
+.Singleproduct .rightside .desc{
+    margin: 1rem;
+}
+.Singleproduct .rightside .desc h3{
+    background-color: #ff4500;
+    padding: 0.3rem;
+}
+.Singleproduct .rightside .desc p{
+    font-weight: 600;
+}
+.Singleproduct .rightside .price{
+    background-color: #fff;
+    padding: 1rem;
+}
+.Singleproduct .rightside .price h3{
+    background-color: #fff;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+}
+.Singleproduct .rightside .price h4{
+    background-color: #ff4500;
+    padding: 0.3rem;
+}
+.Singleproduct .rightside .order{
+    background-color: #fff;
+}
+.Singleproduct .rightside .order button{
+    background-color: #fe8d63;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Singleproduct .rightside .filter{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+}
+.Singleproduct .rightside .filter label{
+    flex: 1;
+    background-color: #fff;
+    font-weight: 600;
+}
+.Singleproduct .rightside .filter select{
+    background-color: #fff;
+    padding: 0.5rem;
+    margin-left: 0.2rem;
+    border: 1px solid #ff4500;
+}
+.Singleproduct .rightside .filter option{
+    background-color: #fff;
+    font-weight: 600;
+}
+.Singleproduct .rightside .filter .quantity{
+    display: flex;
+}
+.Singleproduct .rightside .filter .side1 input{
+    border: 1px solid #ff4500;
+    width: 5rem;
+    padding: 0.4rem;
+    background-color: #fff;
+}
+.Singleproduct .rightside .filter .side2 button{
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 2rem;
+}
+@media only screen and (min-width: 660px) {
+    .Singleproduct{
+        display: flex;
+        flex-direction: row; 
+        margin: 2rem;
+        height: 40rem;
+    }
+    .Singleproduct .leftside{
+        height: 30rem;
+    }
+    .Singleproduct .leftside .picture{
+        width:40rem;
+        height: 30rem;
+    }
+    .Singleproduct .rightside{
+        padding: 2rem;
+        margin: 2.5rem;
+        width: 40rem;
+    }
+    .Singleproduct .rightside .order{
+        text-align: center;
+    }
+    .Singleproduct .rightside .order button{
+        width: 30%;
+    }
+    .Singleproduct .rightside .order button:hover{
+        background-color: #ff4500;
+    }
+    .Singleproduct .rightside .desc p{
+        padding: 1rem;
+    }
+    .Singleproduct .rightside .filter{
+        width:30rem;
+        display: flex;
+    }
+    .Singleproduct .rightside .filter label{
+        flex: 1;
+    }
+}

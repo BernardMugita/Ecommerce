@@ -1,0 +1,32 @@
+.home .main .featuredcategory .heading h1{
+    background-color: #ff4500;
+    color: #fff;
+}
+.home .main .featuredcategory .body{
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    padding: 1rem;
+    overflow-x: scroll;
+}
+.home .main .featuredcategory .body div{
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+    width: 150px;
+    margin-right: 10px;
+    display: flex;
+    border-radius: 0.5rem;
+}
+.home .main .featuredcategory .body div #logo{
+    background-color: #ff4500;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 1.5rem;
+}
+.home .main .featuredcategory .body div p{
+    font-weight: bold;
+    background-color: #fff;
+    margin: 10px;
+}

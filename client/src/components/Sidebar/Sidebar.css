@@ -1,0 +1,33 @@
+.Sidebar .title{
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.Sidebar .title h1{
+    background-color: #ff4500;
+}
+.Sidebar h1{
+    background-color: #fff;
+}
+.Sidebar .image{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.Sidebar .categories{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.Sidebar .categories p{
+    background-color: #fff;
+}
+.Sidebar .recent{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.Sidebar .recent p{
+    background-color: #fff;
+}

@@ -1,0 +1,263 @@
+.Navbar{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #000000;
+}
+.Navbar .title{
+    flex: 5;
+    background-color: #fff;
+}
+.Navbar .cart{
+    background-color: #fff;
+    flex: 1;
+    display: block;
+}
+.Navbar .cart a{
+    background-color: #fff;
+}
+
+.Navbar .cart span{
+    background-color: #fff;
+    color: #ff4400;
+    font-size: 1rem;
+}
+.Navbar .cart #cart{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #ff4400;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.Navbar .links{
+    display: none;
+}
+.Navbar .search{
+    display: none;
+}
+.Navbar .menu{
+    flex: 1;
+    background-color: #fff;
+}
+.Navbar .title h1{
+    background-color: #fff;
+}
+.Navbar .menu .drop .links{
+    display: block;
+    background-color: #fff;
+}
+.Navbar .menu .drop .links a{
+    display: flex;
+    flex-direction: column;
+}
+.Navbar .menu .drop{
+    width: 25rem;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #7a7a7a;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+}
+.Navbar .menu #reorder{
+    margin: 10px;
+    margin-top: 20px;
+    border: 1px solid #acacac;
+    padding: 0px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.Navbar .menu .drop a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7a7a7a;    
+    color: #000000;
+    font-weight: bold;
+    background-color: #fff;
+}
+.Navbar .menu .drop .search{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+}
+.Navbar .menu .drop .search input{
+    width: 100%;
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: #fff;
+    padding: 0.3rem;
+}
+.Navbar .menu .drop .search #search{
+    font-weight: bold;
+    padding: 1px;
+    margin: 2px;
+    background-color: #fff;
+    margin-top: 7px;        
+}
+@media only screen and (min-width: 660px) {
+    .Navbar{
+        padding: 20px;
+        background-color: #fff;
+        width: 97%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .Navbar .title h1{
+        flex: 4;
+        background-color: #fff;
+    }
+    .Navbar .cart{
+        background-color: #fff;
+        text-align: center;
+        width: 10px;
+        margin-right: 20px;
+        padding: 0.5rem;
+        flex: 1;
+    }
+    .Navbar .cart a{
+        background-color: #fff;
+    }
+    .Navbar .cart #cart{
+        background-color: #fff;
+        font-size: 3rem;
+        color: #ff4400;
+        margin-right: 2px;
+        border: 2px solid #ff4400;
+        border-radius: 100%;
+        padding: 0.5rem;
+        margin-top: -0.5rem;
+        
+    }
+    .Navbar .links a{
+        display: none;
+    }    
+    .Navbar .menu .drop{
+        width: 300px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .Navbar .menu .drop .search{
+        display: flex;
+    }
+    .Navbar .menu .drop .search input{
+        flex: 4;
+    }
+    .Navbar .menu .drop .search #search{
+        margin-top: 20px;
+        background-color: #fff;
+        margin: 20px;
+        flex: 1;
+        height: 1.5rem;
+        border: none;
+    }
+    .Navbar .menu .drop .search input{
+        background-color: #fff;
+        height: fit-content;
+        padding: 10px;
+        padding-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #ff4400;
+        border-radius: 10px;
+    }
+    .Navbar .menu #reorder{
+        flex: 2;
+    }
+    .Navbar .menu .drop .links{
+        display: block;
+        background-color: #fff;
+    }
+    .Navbar .menu .drop .links a{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+}
+@media only screen and (min-width: 990px) {
+    .Navbar{
+        padding: 20px;
+        background-color: #fff;
+        width: 98.5%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .Navbar .title h1{
+        flex: 4;
+        background-color: #fff;
+    }
+    .Navbar .links{
+        display: flex;
+        flex-direction: row;
+        flex: 4;
+        background-color: #fff;
+        margin: 20px;
+    }
+    .Navbar .search{
+        display: flex;
+        flex-direction: row;
+        flex: 4;
+        background-color: #fff;
+    }
+    .Navbar .links a{
+        display: block;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: bold;
+        color: #000000;
+        background-color: #fff;
+    }
+    .Navbar .cart{
+        background-color: #fff;
+        text-align: center;
+        width: 10px;
+        margin-right: 20px;
+        padding: 0.3rem;
+        flex: 1;
+        margin-bottom: -20px;
+    }
+    .Navbar .cart #cart{
+        background-color: #fff;
+        font-size: 3rem;
+        color: #ff4400;
+        margin-right: 2px;
+        border: 2px solid #ff4400;
+        border-radius: 100%;
+        padding: 0.4rem;
+        margin-top: 0.1rem;
+    }
+    .Navbar .menu{
+        display: none;
+    }
+    .Navbar .search #search{
+        background-color: #fff;
+        margin: 20px;
+    }
+    .Navbar .search input{
+        background-color: #fff;
+        height: fit-content;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #acacac;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+}

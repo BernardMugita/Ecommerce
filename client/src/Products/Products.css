@@ -1,0 +1,29 @@
+.Products{
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.Products .main{
+    width: 100%;
+}
+.Products .main .Filters{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.Products .main .Filters select{
+    margin-right: 18rem;
+    margin-left: 0.3rem;
+    background-color: #fff;
+    border: 1px solid #f40;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+.Products .main .body{
+    display: flex;
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,67 @@
+.Product{
+    width: 202px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ff4400;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Product .top{
+    padding: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ff4400;
+}
+.Product .top .image img{
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.Product .top .image {
+    background-color: #fff;
+}
+.Product .bottom{
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.Product .bottom .title{
+    margin: 5px;
+    background-color: #fff;
+}
+.Product .bottom .price{
+    margin: 5px;
+    background-color: #fff;
+}
+.Product .bottom .quantity{
+    margin: 5px;
+    background-color: #fff;
+}
+.Product .bottom .title p{
+    background-color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff9d7a;
+}
+.Product .bottom .price p{
+    background-color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff9d7a;
+}
+.Product .bottom .quantity p{
+    background-color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff9d7a;
+}
+.Product .bottom #link{
+    text-decoration: none;
+    background-color: #ff6640;
+    color: #fff;
+}
+
+.Product .Popup{
+    background-color: #fff;
+    margin: 100px;
+    width: 900px;
+    height: 500px;
+}

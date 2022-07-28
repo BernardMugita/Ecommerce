@@ -1,0 +1,137 @@
+.Login{
+    padding: 20px;
+    text-align: center;
+    height: 65vh;
+}
+.Login .login_form{
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.Login .login_form h3, label{
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.Login .login_form input{
+    background-color: #fff;
+    border: 1px solid #ff4400;
+    padding: 0.6rem;
+    margin-left: 2rem;
+}
+
+.Login .login_form .loginbtn{
+    background-color: #fff;
+}
+.Login .login_form .loginbtn:disabled{
+        color: #df5e2f;
+        cursor: not-allowed;
+    }
+
+.Login .login_form .loginbtn button{
+    border: 1px solid #ff4400;
+    padding: 0.5rem;
+    background-color: #fff;
+    width: 85%;
+    margin: 0.2rem;
+    font-weight: 600;
+}
+.Login .login_form p{
+    margin-top: 0.5rem;
+}
+.Login .login_form p a{
+    color: #ff4400;
+    text-decoration: none;
+    background-color: #fff;
+    margin-left: 0.2rem;
+}
+
+@media only screen and (min-width: 660px) {
+    .Login{
+        width: 90%;
+        height: 100vh;
+        padding: 5rem;
+        margin: 2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.1), 
+            rgba(255, 255, 255, 0.1)
+        ),
+        url("../Resources/hw.jpg");
+    }
+    .Login .login_form{
+        width: 70%;
+        padding: 3rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 30%;
+        right: 15%;
+    }   
+    .Login .login_form input{
+        border-radius: 0.3rem;
+    }
+    .Login .login_form .loginbtn button{
+        border-radius: 0.3rem;
+        cursor: pointer;
+        width: 60%;
+    }
+    .Login .login_form .loginbtn button:hover{
+        background-color: #ff4400;
+        color: #fff;
+    }
+    .Login .login_form .loginbtn p a{
+        color: #ff4400;
+        text-decoration: none;
+        background-color: #fff;
+        margin-left: 0.2rem;
+    }
+}
+@media only screen and (min-width: 990px) {
+    .Login{
+        width: 96%;
+        height: 100vh;
+        padding: 5rem;
+        margin: 2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ),
+        url("../Resources/hw.jpg");
+    }
+    .Login .login_form{
+        width: 30%;
+        padding: 3rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 30%;
+        right: 35%;
+    }   
+    .Login .login_form input{
+        border-radius: 0.3rem;
+    }
+    .Login .login_form .loginbtn button{
+        border-radius: 0.3rem;
+        cursor: pointer;
+        width: 60%;
+    }
+    .Login .login_form .loginbtn button:hover{
+        background-color: #ff4400;
+        color: #fff;
+    }
+    .Login .login_form .loginbtn p a{
+        color: #ff4400;
+        text-decoration: none;
+        background-color: #fff;
+        margin-left: 0.2rem;
+    }
+}

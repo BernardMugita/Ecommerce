@@ -1,0 +1,139 @@
+.Register{
+    padding: 20px;
+    text-align: center;
+}
+.Register .register_form{
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+.Register .register_form h3{
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.Register .register_form label{
+    text-align: left;
+    font-size: 0.8rem;
+}
+.Register .register_form input{
+    background-color: #fff;
+    border: 1px solid #ff4400;
+    padding: 0.6rem;
+    margin-left: 1rem;
+    width: 90%;
+    font-size: 1rem;
+}
+.Register .register_form p{
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.Register .register_form strong{
+    background-color: #fff;
+}
+.Register .register_form button{
+    background-color: #ff4400;
+    color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ff4400;
+    font-weight: 600;
+    font-size: 1rem;
+}
+@media only screen and (min-width: 660px) {
+    .Register{
+        width: 90%;
+        height: 100vh;
+        padding: 5rem;
+        margin: 2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ),
+        url("../Resources/hw2.jpg");
+    }
+    .Register .register_form{
+        width: 70%;
+        padding: 3rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 15%;
+        right: 15%;
+    }   
+    .Register .register_form input{
+        border-radius: 0.3rem;
+    }
+    .Register .register_form .registerbtn{
+        background-color: #fff;
+    }
+    .Register .register_form .registerbtn button{
+        background-color: #fff;
+        color: #000000;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        width: 100%;
+    }
+    .Register .register_form .registerbtn button:hover{
+        background-color: #ff4400;
+        color: #fff;
+    }
+    .Register .register_form .registerbtn p a{
+        color: #ff4400;
+        text-decoration: none;
+        background-color: #fff;
+        margin-left: 0.2rem;
+    }
+}
+@media only screen and (min-width: 990px) {
+    .Register{
+        width: 96%;
+        height: 100vh;
+        padding: 5rem;
+        margin: 2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ),
+        url("../Resources/hw2.jpg");
+    }
+    .Register .register_form{
+        width: 30%;
+        padding: 3rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 15%;
+        right: 35%;
+    }   
+    .Register .register_form input{
+        border-radius: 0.3rem;
+    }
+    .Register .register_form .registerbtn{
+        background-color: #fff;
+    }
+    .Register .register_form .registerbtn button{
+        background-color: #fff;
+        color: #000000;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        width: 100%;
+    }
+    .Register .register_form .registerbtn button:hover{
+        background-color: #ff4400;
+        color: #fff;
+    }
+    .Register .register_form .registerbtn p a{
+        color: #ff4400;
+        text-decoration: none;
+        background-color: #fff;
+        margin-left: 0.2rem;
+    }
+}
